@@ -1,5 +1,5 @@
 <?
-$title = "Пенсионная реформа";
+$title = "Народное вече";
 require_once("components/header.php");
 ?>
 <div class="container">
@@ -13,6 +13,13 @@ require_once("components/header.php");
       <li class="page-item"><a class="page-link" href="preform2.php">2</a></li>
       <li class="page-item"><a class="page-link" href="preform3.php">3</a></li>
       <li class="page-item"><a class="page-link" href="preform4.php">4</a></li>
+      <li class="page-item"><a class="page-link" href="preform5.php">5</a></li>
+      <li class="page-item"><a class="page-link" href="preform6.php">6</a></li>
+      <li class="page-item"><a class="page-link" href="preform7.php">7</a></li>
+      <li class="page-item"><a class="page-link" href="preform8.php">8</a></li>
+      <li class="page-item"><a class="page-link" href="preform9.php">9</a></li> 
+      <li class="page-item"><a class="page-link" href="preform10.php">10</a></li>
+      <li class="page-item"><a class="page-link" href="preform11.php">11</a></li>
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
           <span aria-hidden="true">&raquo;</span>

@@ -1,5 +1,5 @@
 <?
-$title = "Пенсионная реформа";
+$title = "Народное вече";
 require_once("components/header.php");
 ?>
 <style>
@@ -19,6 +19,13 @@ require_once("components/header.php");
       <li class="page-item"><a class="page-link" href="preform2.php">2</a></li>
       <li class="page-item"><a class="page-link" href="preform3.php">3</a></li>
       <li class="page-item"><a class="page-link" href="preform4.php">4</a></li>
+      <li class="page-item"><a class="page-link" href="preform5.php">5</a></li>
+      <li class="page-item"><a class="page-link" href="preform6.php">6</a></li>
+      <li class="page-item"><a class="page-link" href="preform7.php">7</a></li>
+      <li class="page-item"><a class="page-link" href="preform8.php">8</a></li>
+      <li class="page-item"><a class="page-link" href="preform9.php">9</a></li>
+      <li class="page-item"><a class="page-link" href="preform10.php">10</a></li>
+      <li class="page-item"><a class="page-link" href="preform11.php">11</a></li>
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
           <span aria-hidden="true">&raquo;</span>
@@ -99,9 +106,9 @@ require_once("components/header.php");
         <div class="col-12">
           <span class="p-3">
             <ol>
-              <li><q><b>Российская Федерация - социальное государство, политика которого направлена на создание условий, обеспечивающих достойную жизнь и свобод-ное развитие человека.</b></q>
+              <li><q><b>Российская Федерация - социальное государство, политика которого направлена на создание условий, обеспечивающих достойную жизнь и свободное развитие человека.</b></q>
               </li>
-              <li><q><b>В Российской Федерации охраняются труд и здоровье людей, устанавливается гарантированный минимальный размер оплаты труда, обеспечивается государственная поддержка семьи, материнства, отцовства и детства, инвалидов и пожилых граждан, развива-ется система социальных служб, устанавливаются госу-дарственные пенсии, пособия и иные гарантии социальной защиты.</b></q>
+              <li><q><b>В Российской Федерации охраняются труд и здоровье людей, устанавливается гарантированный минимальный размер оплаты труда, обеспечивается государственная поддержка семьи, материнства, отцовства и детства, инвалидов и пожилых граждан, развивается система социальных служб, устанавливаются государственные пенсии, пособия и иные гарантии социальной защиты.</b></q>
               </li>(ст.7 действующей Конституции РФ)
             </ol>
             <ol>

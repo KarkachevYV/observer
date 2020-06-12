@@ -30,13 +30,19 @@ session_start();
         font-size: 1.3vw;
         color: red; 
       }
+      h6 {
+        font-size: 1.0vw;
+      }
       a {
         color: #024c8b;
 	      text-decoration: none;
         font-size: 1.1vw;
       }
       ol {
-        font-size: 1.3vw;
+        font-size: 1.0vw;
+      }
+      p {
+        font-size: 1.0vw;
       }
      .btn {
         font-family: 'Lato', sans-serif;
@@ -115,8 +121,8 @@ session_start();
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Активный гражданин</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="property.php">Народное достояние</a>
-              <a class="dropdown-item" href="preform.php">Пенсионная реформа</a>
+              <a class="dropdown-item" href="property.php">Голосование по поправкам</a>
+              <a class="dropdown-item" href="preform.php">Народное вече</a>
               <a class="dropdown-item" href="education.php">Система образования</a>
               <a class="dropdown-item" href="healthcare.php">Система здравохранения</a>
               <div class="dropdown-divider"></div>

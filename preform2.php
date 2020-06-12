@@ -1,5 +1,5 @@
 <?
-$title = "Пенсионная реформа";
+$title = "Народное вече";
 require_once("components/header.php");
 ?>
 <div class="container">
@@ -13,6 +13,13 @@ require_once("components/header.php");
       <li class="page-item"><a class="page-link" href="preform2.php">2</a></li>
       <li class="page-item"><a class="page-link" href="preform3.php">3</a></li>
       <li class="page-item"><a class="page-link" href="preform4.php">4</a></li>
+      <li class="page-item"><a class="page-link" href="preform5.php">5</a></li>
+      <li class="page-item"><a class="page-link" href="preform6.php">6</a></li>
+      <li class="page-item"><a class="page-link" href="preform7.php">7</a></li>
+      <li class="page-item"><a class="page-link" href="preform8.php">8</a></li>
+      <li class="page-item"><a class="page-link" href="preform9.php">9</a></li>
+      <li class="page-item"><a class="page-link" href="preform10.php">10</a></li>
+      <li class="page-item"><a class="page-link" href="preform11.php">11</a></li>
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
           <span aria-hidden="true">&raquo;</span>
@@ -29,20 +36,20 @@ require_once("components/header.php");
           <span class="p-3">
             <ol>
               <li>Введение.
-              <a href="preform3.php"></a>
+              <a href="preform3.php"><b>   3</b></a>
               </li>
-              <li>Попытка обмана или профессиональная непригодность Правительства? p.4
+              <li>Попытка обмана или профессиональная непригодность Правительства?<a href="preform4.php"><b>   4</b></a> 
               </li>
-              <li>Кто в доме, государстве Россия, хозяин?  (логико-правовое обоснование) p.9</li>
-              <li>Концепция самозащиты от «людоедской» реформы Медведева.  p.10</li>
-              <li>Технология непосредственного волеизъявления. p.16 </li>
-              <li>	Профсоюзы - организатор самозащиты народа. p.22</li>
-              <li>Заключение.  p.24</li>
+              <li>Кто в доме, государстве Россия, хозяин?  (логико-правовое обоснование) <a href="preform5.php"><b>   5</b></a> </li>
+              <li>Концепция самозащиты от «людоедской» реформы Медведева.  <a href="preform6.php"><b>   6</b></a> </li>
+              <li>Технология непосредственного волеизъявления. <a href="preform7.php"><b>   7</b></a> </li>
+              <li>	Профсоюзы - организатор самозащиты народа. <a href="preform8.php"><b>   8</b></a> </li>
+              <li>Заключение.  <a href="preform9.php"><b>   9</b></a> </li>
             </ol>
             <h4>Приложения:</h4>
             <ol>
-              <li>Форма Листа непосредственного волеизъявления части народа РФ  p.25</li>
-              <li>Форма Мандата-доверенности Члену Исполкома Народного Вече первого уровня  p.27</li>
+              <li>Форма Листа непосредственного волеизъявления части народа РФ  <a href="preform10.php"><b>   10</b></a></li>
+              <li>Форма Мандата-доверенности Члену Исполкома Народного Вече первого уровня  <a href="preform11.php"><b>   11</b></a></li>
               <li>Форма Мандата-доверенности Члену Исполкома Народного Вече второго уровня  p.29</li>
               <li>Форма Протокола обобщения первого уровня непосредственного волеизъявления Граждан (избирателей) РФ до Воли соответствующей части Народа России.  p.31</li>
               <li>Форма Информационного письма Президенту РФ  p.32</li>
