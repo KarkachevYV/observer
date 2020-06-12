@@ -36,13 +36,16 @@ session_start();
       a {
         color: #024c8b;
 	      text-decoration: none;
-        font-size: 1.1vw;
+        font-size: 0.9vw;
       }
       ol {
         font-size: 1.0vw;
       }
       p {
         font-size: 1.0vw;
+      }
+     .page-item {
+        width: 7%;
       }
      .btn {
         font-family: 'Lato', sans-serif;

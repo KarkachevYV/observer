@@ -27,24 +27,24 @@ require_once("components/header.php");
     <ul class="pagination">
       <li class="page-item">
         <a class="page-link" href="preform.php" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
+          <span aria-hidden="true">Н</span>
         </a>
       </li>
-      <li class="page-item"><a class="page-link" href="preform2.php">2</a></li>
-      <li class="page-item"><a class="page-link" href="preform3.php">3</a></li>
-      <li class="page-item"><a class="page-link" href="preform4.php">4</a></li>
-      <li class="page-item"><a class="page-link" href="preform5.php">5</a></li>
-      <li class="page-item"><a class="page-link" href="preform6.php">6</a></li>
-      <li class="page-item"><a class="page-link" href="preform7.php">7</a></li>
-      <li class="page-item"><a class="page-link" href="preform8.php">8</a></li>
-      <li class="page-item"><a class="page-link" href="preform9.php">9</a></li>
-      <li class="page-item"><a class="page-link" href="preform10.php">10</a></li>
-      <li class="page-item"><a class="page-link" href="preform11.php">11</a></li>
-      <li class="page-item"><a class="page-link" href="preform12.php">12</a></li>
-      <li class="page-item"><a class="page-link" href="preform13.php">13</a></li>
+      <li class="page-item"><a class="page-link" href="preform2.php">C</a></li>
+      <li class="page-item"><a class="page-link" href="preform3.php">1</a></li>
+      <li class="page-item"><a class="page-link" href="preform4.php">2</a></li>
+      <li class="page-item"><a class="page-link" href="preform5.php">3</a></li>
+      <li class="page-item"><a class="page-link" href="preform6.php">4</a></li>
+      <li class="page-item"><a class="page-link" href="preform7.php">5</a></li>
+      <li class="page-item"><a class="page-link" href="preform8.php">6</a></li>
+      <li class="page-item"><a class="page-link" href="preform9.php">7</a></li>
+      <li class="page-item"><a class="page-link" href="preform10.php">П1</a></li>
+      <li class="page-item"><a class="page-link" href="preform11.php">П2</a></li>
+      <li class="page-item"><a class="page-link" href="preform12.php">П3</a></li>
+      <li class="page-item"><a class="page-link" href="preform13.php">П4</a></li>
       <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
+        <a class="page-link" href="preform14.php" aria-label="Next">
+          <span aria-hidden="true">П5</span>
         </a>
       </li>
     </ul>
@@ -75,8 +75,10 @@ require_once("components/header.php");
                     <th rowspan="2" width="5%">№ п/п</th>
                     <th rowspan="2" width="40%">Фамилия, имя, отчество (полностью) члена Исполкома первого уровня - представителя по доверенности первичной ячейки Союза избирателей России &laquo;Народное Вече&raquo;</th>
                     <th rowspan="2" width="10%">Всего избирателей в первичной ячейке</th>
-                    <th colspan="2" width="20%"></th>
+                    <th colspan="2" width="20%">Ответили на формулу волеизъявления </th>
                     <th rowspan="2" width="25%"><h8>&laquo;За достоверность представленных данных отвечаю&raquo;</h8> Подпись и дата</th>
+                  </tr>
+                  <tr>
                     <td>&laquo;ДА&raquo;</td><td>&laquo;НЕТ&raquo;</td>
                   </tr>
                   <tr>
