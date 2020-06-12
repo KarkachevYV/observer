@@ -40,6 +40,8 @@ require_once("components/header.php");
       <li class="page-item"><a class="page-link" href="preform9.php">9</a></li>
       <li class="page-item"><a class="page-link" href="preform10.php">10</a></li>
       <li class="page-item"><a class="page-link" href="preform11.php">11</a></li>
+      <li class="page-item"><a class="page-link" href="preform12.php">12</a></li>
+      <li class="page-item"><a class="page-link" href="preform13.php">13</a></li>
       <li class="page-item">
         <a class="page-link" href="#" aria-label="Next">
           <span aria-hidden="true">&raquo;</span>
