@@ -2,16 +2,24 @@
 class User {
   private $id;
   private $login;
-  private $name;
   private $lastname;
+  private $name;
+  private $patronymic;
   private $birthday;
+  private $mobilephone;
+  private $mailaddress;
+  private $pollingstation;
   
-  public function __construct($id, $login, $name, $lastname, $birthday) {
+  public function __construct($id, $login, $lastname, $name, $patronymic, $birthday, $mobilephone, $mailaddress, $pollingstation) {
     $this->id = $id;
     $this->login = $login;
-    $this->name = $name;
     $this->lastname = $lastname;
+    $this->name = $name;
+    $this->patronymic = $patronymic;
     $this->birthday = $birthday;
+    $this->mobilephone = $mobilephone;
+    $this->mailaddress = $mailaddress;
+    $this->pollingstation = $pollingstation;
   }
   
   public function __get($property) { //$vasya->login
@@ -27,7 +35,7 @@ class User {
     return $this->$property;
   }
   public function getFullName() {
-    return $this->lastname . " " . $this->name;
+    return $this->lastname . " " . $this->name . " " . $this->patronymic;
     
     
   }

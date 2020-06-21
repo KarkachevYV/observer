@@ -5,7 +5,7 @@ if(!$_SESSION['id']) {
   header('Location: auth.php');
 }
 require_once("User.php");
-$user = new User($_SESSION['id'], $_SESSION['login'], $_SESSION['name'], $_SESSION['lastname'], $_SESSION['birthday']);
+$user = new User($_SESSION['id'], $_SESSION['login'], $_SESSION['lastname'], $_SESSION['name'], $_SESSION['patronymic'], $_SESSION['birthday'], $_SESSION['mobilephone'], $_SESSION['mailaddress'], $_SESSION['pollingstation']);
 //$user->login = "NewLogin";//приведёт к ошибке 500
 //echo $user->login;
 require_once("components/header.php");
@@ -15,29 +15,57 @@ require_once("components/header.php");
     <div class="col-8">
       <h1 class="text-center">Личный кабинет</h1>
       <h5>Добро пожаловать, <?php echo $user->getFullName()?></h5>
-      <p><b>ID</b><span class="info"><?php echo $user->id?></span>
+      <p><b>ID: </b><span class="info"><?php echo $user->id?></span>
       <span class="control"></span>
       </p>
-      <p><b>Логин:</b><span class="info"><?php echo $user->login?></span>
+      <p><b>Логин: </b><span class="info"><?php echo $user->login?></span>
       <span class="control"></span>
       </p>
-      <p><b>Имя</b><span class="info" name="name"><?php echo $user->name?></span>
-      <span class="control">
-        <i class="fa fa-pencil" style="cursor: pointer;" aria-hidden="true"></i>
-        <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
-        <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
-      </span>
-      </p>
-      <p><b>Фамилия</b><span class="info" name="lastname"><?php echo $user->lastname?></span>
+      <p><b>Фамилия: </b><span class="info" name="lastname"><?php echo $user->lastname?></span>
       <span class="control">
         <i class="fa fa-pencil " style="cursor: pointer;" aria-hidden="true"></i>
         <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
         <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
       </span>
       </p>
-      <p><b>Дата рождения:</b><span class="info" name="birthday"><?php echo $user->birthday?></span>
+      <p><b>Имя: </b><span class="info" name="name"><?php echo $user->name?></span>
+      <span class="control">
+        <i class="fa fa-pencil" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
+      </span>
+      </p>
+      <p><b>Отчество: </b><span class="info" name="patronymic"><?php echo $user->patronymic?></span>
+      <span class="control">
+        <i class="fa fa-pencil" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
+      </span>
+      </p>
+      <p><b>Дата рождения: </b><span class="info" name="birthday"><?php echo $user->birthday?></span>
       <span class="control">
         <i class="fa fa-pencil"  style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
+      </span>
+      </p>
+      <p><b>Мобильный телефон: </b><span class="info" name="mobilephone"><?php echo $user->mobilephone?></span>
+      <span class="control">
+        <i class="fa fa-pencil " style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
+      </span>
+      </p>
+      <p><b>Электронный адрес: </b><span class="info" name="mailaddress"><?php echo $user->mailaddress?></span>
+      <span class="control">
+        <i class="fa fa-pencil " style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
+        <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
+      </span>
+      </p>
+      <p><b>Избирательный участок №</b><span class="info" name="pollingstation"><?php echo $user->pollingstation?></span>
+      <span class="control">
+        <i class="fa fa-pencil " style="cursor: pointer;" aria-hidden="true"></i>
         <i class="fa fa-check d-none" style="cursor: pointer;" aria-hidden="true"></i>
         <i class="fa fa-times d-none" style="cursor: pointer;" aria-hidden="true"></i>
       </span>

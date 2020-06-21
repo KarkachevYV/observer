@@ -52,7 +52,7 @@ require_once("components/header.php");
           </div>
         </div>  
       </div>  
-      
+    
 <?
 require_once("components/footer.php");
 ?>       

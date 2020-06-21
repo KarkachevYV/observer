@@ -11,7 +11,7 @@ require_once("components/header.php");
             <div class="input-group-prepend">
               <span class="input-group-text"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
             </div>
-            <input type="text" class="form-control" placeholder="Имя пользователя" name="login" required>
+            <input type="text" class="form-control" placeholder="Логин" name="login" required>
             </div>
            
             <div class="input-group mb-3">

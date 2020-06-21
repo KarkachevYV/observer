@@ -11,22 +11,33 @@ $pass = $_POST['pass'];
 $passRepeat = $_POST['pass_repeat'];
 $lastname = $_POST['lastname'];
 $name = $_POST['name'];
+$patronymic = $_POST['patronymic'];
 $birthday =$_POST['birthday'];
+$mobilephone =$_POST['mobilephone'];
+$mailaddress =$_POST['mailaddress'];
+$pollingstation =$_POST['pollingstation'];
 
 $login = trim($login);
 $lastname = trim($lastname);
 $name = trim($name);
+$patronymic = trim($patronymic);
 $birthday =trim($birthday);
+$mobilephone =trim($mobilephone);
+$mailaddress =trim($mailaddress);
+$pollingstation =trim($pollingstation);
 
 $login = htmlspecialchars($login);
 $pass = htmlspecialchars($pass);
 $passRepeat = htmlspecialchars($passRepeat);
 $lastname = htmlspecialchars($lastname);
 $name = htmlspecialchars($name);
+$patronymic = htmlspecialchars($patronymic);
 $birthday = htmlspecialchars($birthday);
+$mobilephone = htmlspecialchars($mobilephone);
+$mailaddress = htmlspecialchars($mailaddress);
+$pollingstation = htmlspecialchars($pollingstation);
 
-if (empty($login) or empty($pass) or empty($passRepeat) or empty($lastname)
-or empty($name) or empty($birthday)) {
+if (empty($login) or empty($pass) or empty($passRepeat) or empty($lastname) or empty($name) or empty($patronymic) or empty($birthday) or empty($mobilephone) or empty($mailaddress) or empty($pollingstation)) {
   exit("Не все поля заполнены");
 }
 
@@ -46,7 +57,8 @@ if (isset($result) ) {
   exit("Такой пользователь уже существует, Вам следует Войти");
 }
 
-$result = $mysqli->query("INSERT INTO `users`(`login`, `pass`, `lastname`, `name`, `birthday`) VALUES ('$login', '$pass', '$lastname', '$name', '$birthday')")->fetch_assoc();
+$result = $mysqli->query("INSERT INTO `users`(`login`, `pass`, `lastname`, `name`, `patronymic`, `birthday`, `mobilephone`, `mailaddress`, `pollingstation`) VALUES ('$login', '$pass', '$lastname', '$name', '$patronymic', '$birthday', '$mobilephone', '$mailaddress', '$pollingstation')");
+$result->fetch_assoc();
 
 if(!$result) {
   exit("Не удалось добавить пользователя");
@@ -54,9 +66,13 @@ if(!$result) {
   $result = $mysqli->query("SELECT `id` FROM `users` WHERE `login`='$login'")->fetch_assoc();
   $_SESSION['id'] = $result['id'];
   $_SESSION['login'] = $result['login'];
-  $_SESSION['name'] = $result['name'];
   $_SESSION['lastname'] = $result['lastname'];
-  $_SESSION['birthday'] = $result['birthday'];  
+  $_SESSION['name'] = $result['name'];
+  $_SESSION['patronymic'] = $result['patronymic'];
+  $_SESSION['birthday'] = $result['birthday'];
+  $_SESSION['mobilephone'] = $result['mobilephone'];
+  $_SESSION['mailaddress'] = $result['mailaddress'];
+  $_SESSION['pollingstation'] = $result['pollingstation'];
     exit("ok");
 }
 
