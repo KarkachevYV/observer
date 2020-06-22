@@ -58,7 +58,7 @@ if (isset($result) ) {
 }
 
 $result = $mysqli->query("INSERT INTO `users`(`login`, `pass`, `lastname`, `name`, `patronymic`, `birthday`, `mobilephone`, `mailaddress`, `pollingstation`) VALUES ('$login', '$pass', '$lastname', '$name', '$patronymic', '$birthday', '$mobilephone', '$mailaddress', '$pollingstation')");
-$result->fetch_assoc();
+
 
 if(!$result) {
   exit("Не удалось добавить пользователя");

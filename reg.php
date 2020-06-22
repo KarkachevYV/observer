@@ -29,7 +29,7 @@
                 </div>
                 <input type="password" class="form-control" placeholder="Повторите пароль" name="pass_repeat">
               </div>
-              <h4 class="text-center">Личные данные</h4>
+              <h4 class="text-center">Личная информация</h4>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -63,6 +63,7 @@
                 </div>
                 <input type="date" class="form-control" placeholder="Дата рождения" name="birthday">
               </div>
+              <h4 class="text-center">Контактная информация</h4>
               <div class="input-group mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
