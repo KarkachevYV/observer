@@ -57,7 +57,7 @@ session_start();
       }
       .colortext {
         font-family: 'Lato', sans-serif;
-        font-size: 2.3vw;
+        font-size: 1.9vw;
         color: red; 
       }
       .container {

@@ -3,7 +3,7 @@
         <a href="about.php" class="btn btn-secondary mx-1 my-1">О сайте</a>
         <a href="obratno.php" class="btn btn-secondary mx-1 my-1">Обратная связь</a>
       </div>
-      <p class="text-center ">Все права защищены © 2020 КОПА</p>
+      <p class="text-center "><b>Все права защищены © 2020 КОПА</b></p>
     </div>
     <!-- Optional JavaScript -->
     <script src="https://use.fontawesome.com/12605f1691.js"></script>

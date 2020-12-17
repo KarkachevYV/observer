@@ -6,7 +6,7 @@ require_once("components/header.php");
     <div class="container-fluid">
       <div  class="row align-items">
         <div id="layer2" class="col-12 text-center">
-          <h1 class="colortext">ЕСЛИ НЕ ТЫ - ТО КТО ?</h1>
+          <h5><b>САЙТ СОЗДАН ДЛЯ ИЗБИРАТЕЛЯ ВНЕ ЗАВИСИМОСТИ ОТ ЕГО ПОЛЛИТИЧЕСКОЙ ПРИНАДЛЕЖНОСТИ И ЛИЧНЫХ ВЗГЛЯДОВ.</b></h5>
         </div>
       </div>  
       <div class="row">
