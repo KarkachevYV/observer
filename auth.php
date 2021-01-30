@@ -18,7 +18,7 @@ require_once("components/header.php");
             <div class="input-group-prepend">
               <span class="input-group-text"><i class="fa fa-key" aria-hidden="true"></i></span>
             </div>
-            <input type="password" class="form-control" placeholder="Пароль" name="pass">
+            <input type="password" class="form-control" placeholder="Пароль" name="password">
         </div>
         <p class="text-danger d-none error"></p>
         <input type="submit" class="btn btn-primary btn-block" value="Войти">
